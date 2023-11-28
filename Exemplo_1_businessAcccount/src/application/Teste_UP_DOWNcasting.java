@@ -4,7 +4,7 @@ import entities.Account;
 import entities.BusineesAccount;
 import entities.SavingsAccount;
 
-public class Teste {
+public class Teste_UP_DOWNcasting {
 
 	public static void main(String[] args) {
 		
