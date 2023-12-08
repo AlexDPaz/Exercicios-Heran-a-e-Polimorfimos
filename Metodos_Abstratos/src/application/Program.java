@@ -29,14 +29,14 @@ public class Program {
 			System.out.print("Color (BLACK/BLUE/RED): ");
 			Color color = Color.valueOf(sc.next());
 			if (type == 'r') {
-				System.out.println("Width: ");
+				System.out.print("Width: ");
 				double width = sc.nextDouble();
-				System.out.println("Height: ");
+				System.out.print("Height: ");
 				double height = sc.nextDouble();
 				list.add(new Rectangle(color, width, height));
 			}
 			else {
-				System.out.println("Radius: ");
+				System.out.print("Radius: ");
 				double radius = sc.nextDouble();
 				list.add(new Cicle(color, radius));
 			}
