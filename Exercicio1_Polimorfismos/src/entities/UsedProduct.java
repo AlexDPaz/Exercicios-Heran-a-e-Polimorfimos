@@ -8,7 +8,7 @@ public class UsedProduct extends Product {
 	
 	private LocalDate manufactureDate;
 	
-	public UsedProduct() {
+	public UsedProduct(String name, double price, LocalDate date) {
 		super();
 	}
 
