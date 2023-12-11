@@ -21,6 +21,7 @@ public abstract class Shape {
 		this.color = color;
 	}
     
+	// usando o metodo abstract eu sou obrigado a mudar minha clase para abstract 
     public abstract double area();
 
 }
