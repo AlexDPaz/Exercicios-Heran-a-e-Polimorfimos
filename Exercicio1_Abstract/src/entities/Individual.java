@@ -27,7 +27,7 @@ public class Individual extends TaxPayers {
 		}
 	}
 	
-	/*private Double healthExpenditures;
+	/* private Double healthExpenditures;
 
 	public Individual() {
 		super();
